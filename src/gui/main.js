@@ -15,11 +15,12 @@ var UI = document.createElement("div"); // create the panel
 /**
   add buttons and everything
 */
-UI.innerHTML='<div id="overloadPanel" style="width:300px; left: 1px; top: 1px; background-color: #282828; color: white; outline: white solid 1px; position:absolute; z-index: 99999;">
+UI.innerHTML=`<div id="overloadPanel" style="width:300px; left: 1px; top: 1px; background-color: #282828; color: white; outline: white solid 1px; position:absolute; z-index: 99999;">
     <h1 style="font-size: 32px;">iReady hack</h1><br><br><br>
+    <h4> WARNING: you can get banned for using this, also YOU HAVE TO GET 1 QUESTION RIGHT OR ELSE YOU WILL GET A 0 WITH THE QUESION SKIPPER ( 1 wrong = 0%, 1 wrong, 1 right = 50%, 1 right = 100%, ect...) </h4>
     <h2 style="font-size: 25px; font-style: normal !important; color: white !important;">Question Skipper</h2><button id="skip" ">Skip current question</button><br><br>
-    <hr>This tool was created by <a href="#">you</a>.<br><br>
-</div>';
+    <hr>This tool was created by <a href="https://github.com/wang-on-top/">wang</a>.<br><br>
+</div>`;
 
 
 dragElement(UI.firstElementChild); //make the element draggable
